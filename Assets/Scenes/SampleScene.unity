@@ -753,10 +753,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<b>Instrucciones:</b>\n\nEn la escena podemos dos cron\xF3metros y una
-    pelota, uno de los cron\xF3metros dependiente de Time.deltaTime y el otro dependiente
-    de Time.unscaleDeltaTime. Adem\xE1s, pulsando la tecla \"Escape\" pararemos la
-    ejecuci\xF3n (Time.timeScale) y analizaremos el resultado."
+  m_Text: "<b>Instrucciones:</b>\n\nEn la escena podemos ver dos cron\xF3metros y
+    una pelota moviendose, uno de los cron\xF3metros dependiente de Time.deltaTime
+    y el otro dependiente de Time.unscaledDeltaTime. Adem\xE1s, pulsando la tecla
+    \"Escape\" pararemos la ejecuci\xF3n (Time.timeScale) y analizaremos el resultado."
 --- !u!222 &1552275972
 CanvasRenderer:
   m_ObjectHideFlags: 0

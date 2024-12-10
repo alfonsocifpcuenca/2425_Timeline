@@ -14,7 +14,7 @@ public class Ball : MonoBehaviour
         Vector3 posicion = transform.position;
 
         // Calcula el nuevo valor de la posición en el eje X
-        float nuevaPosX = posicion.x + direccion * velocidad * Time.deltaTime;
+        float nuevaPosX = posicion.x + direccion * velocidad * Time.unscaledDeltaTime;
 
         // Verifica si alcanzó los límites y cambia la dirección si es necesario
         if (nuevaPosX > limiteDerecho)
